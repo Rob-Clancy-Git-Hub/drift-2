@@ -1,5 +1,5 @@
-resource "aws_s3 _bucket" "test_bucket" {
-bucket = 'my-tf-test-bucket-123902538"
+resource "aws_s3 _bucket" "test_bucket { 
+bucket = "rob-my-tf-test-bucket"
 acl = "private"
 
 tags = {
