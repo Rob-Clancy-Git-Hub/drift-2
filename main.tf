@@ -1,4 +1,4 @@
-resource aws_s3 _bucket test_bucket { 
+resource aws_s3_bucket test_bucket { 
 bucket = "rob-my-tf-test-bucket"
 acl = "private"
 
